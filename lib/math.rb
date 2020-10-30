@@ -18,11 +18,11 @@ def multiplication(num1, num2)
 end
 
 def modulo(num1, num2)
-  modu = num2 % num1
+  modu = num1 % num2
   modu
 end
 
 def square_root(num)
-  Math.sqrt(num)
-  num
+  sqrt_num = Math.sqrt(num)
+  sqrt_num
 end
